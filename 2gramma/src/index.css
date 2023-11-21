@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 768px) {
+    .bebeb {
+      display:flex !important;
+      flex-direction: column !important;
+    }
+}
+@media (min-width: 1000px) {
+    .bebeb {
+      display:flex !important;
+      flex-direction: row !important;
+    }
+}

@@ -2,12 +2,12 @@ import Nav from 'react-bootstrap/Nav';
 
 function SelectDialog() {
   return (
-    <Nav variant="pills" defaultActiveKey="/home" className='flex-column w-60'>
-      <Nav.Item>
-        <Nav.Link href="/home">Active</Nav.Link>
+    <Nav variant="underline" defaultActiveKey="/home" className='flex-column w-60 '>
+      <Nav.Item className=''>
+        <Nav.Link href="/home"  className=' text-white'>Общий чат</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+        <Nav.Link eventKey="link-1" className='text-white'>Частный чат</Nav.Link>
       </Nav.Item>
     </Nav>
 
