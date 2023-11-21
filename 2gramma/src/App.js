@@ -9,10 +9,16 @@ function App() {
         <Header />
       </header>
       <main>
-        <Container className="d-flex gap-10 ">
+        <Container className="d-flex gap-10 h-full">
           <SelectDialog />
-          <div>
-            info
+          <div className="border rounded-3xl d-flex flex-column w-full justify-between">
+              <div className="">
+
+              </div>
+              <div className="d-flex">
+                <input className="w-full" />
+                <button className=" bg-blue-500">asd</button>
+              </div>      
           </div>
         </Container>    
       </main>
