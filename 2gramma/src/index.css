@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 768px) {
+@media (min-width: 400px) {
     .bebeb {
-      display:flex !important;
+      display:flex !important;  
       flex-direction: column !important;
+      gap:40px;
+    }
+    .bebe {
+      display:flex !important;
+      flex-direction: row !important;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .bebeb {
       display:flex !important;
       flex-direction: row !important;
+    }
+    .bebe {
+      display:flex !important;
+      flex-direction: column !important;
     }
 }
